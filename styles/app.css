@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.containers {
+    display: flex;
+    gap: 170px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.container {
+    background-color: #EFF4FB;
+    width: 449px;
+    height: 455px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.cards {
+    background-color: #AABDD933;
+    border: 1px dashed rgb(182, 187, 194);
+    width: 349px;
+    height: 355px;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+ul li {
+    list-style-type: none;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    height: 70px;
+    border: solid 1px rgb(222, 222, 222);
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+}
+
+span {
+    color: rgb(123, 123, 123);
+    font-size: 14px;
+}
+.points {
+    padding: 15px;
+    
+}
+
+h2 { font-size: 23px;}
