@@ -9,6 +9,26 @@
     gap: 170px;
     padding: 30px;
     border-radius: 10px;
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); 
+}
+
+.sortable-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 8px;
+    border: 2px dashed #e0e8f0;
+    border-radius: 8px;
+    list-style-type: none; 
+    flex-grow: 1; 
+}
+
+.list-item {
+    cursor: grab; 
+}
+
+.list-item:active {
+    cursor: grabbing;
 }
 
 .container {
@@ -26,11 +46,12 @@
     gap: 20px;
     border-radius: 10px;
     padding: 20px;
-
+     gap: 15px;
 }
 ul li {
     list-style-type: none;
 }
+
 
 .card {
     background-color: white;
@@ -40,6 +61,7 @@ ul li {
     border-radius: 10px;
     display: flex;
     padding: 10px;
+    align-items: center;
 }
 
 span {
